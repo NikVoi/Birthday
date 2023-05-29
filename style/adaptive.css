@@ -16,6 +16,10 @@
 
     .StartPage__logo > a {font-size: 1rem;}
 
+    .StartPage__wrapper {
+        margin-top: 11rem;
+    }
+
     .StartPage__left {
     
         flex: 1;
@@ -81,7 +85,7 @@
         width: 1rem;
         height: 3rem;
     
-        top: 6rem;
+        top: 8rem;
         right: 0;
     }
     
@@ -105,8 +109,8 @@
         width: 2rem;
         height: 2rem;
         
-        bottom: 2rem;
-        left: 10rem;
+        bottom: -2rem;
+        left: 8rem;
     }
     
     .StartPage__item > img {
