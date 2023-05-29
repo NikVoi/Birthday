@@ -1,12 +1,17 @@
 .StartPage {
+    position: relative;
+
     padding: 50px;
 
     color: #735739;
+    font-family: 'Suez One', serif;
 }
 
 .StartPage__logo {
     width: 3rem;
     height: 3rem;
+
+    text-transform: uppercase;
 
     margin-bottom: 50px;
 }
@@ -42,10 +47,13 @@ a {
 }
 .StartPage__left {
     width: 40%;
+
+    flex: 1;
     margin-right: 20px;
 }
 
 .StartPage__right {
+    position: relative;
     width: 55%;
 
     display: flex;
@@ -63,27 +71,29 @@ a {
 }
 
 h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
-}
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}           
 
 h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
+    font-size: 2rem;
+    margin-bottom: 3rem;
 }
 
 .StartPage__description {
-    font-size: 24px;
+    font-size: 1rem;
 
-    margin-bottom: 40px;
+    margin-bottom: 3rem;
 }
 
 .button__start {
     display: inline-block;
-    padding: 15px 30px;
+    padding: 1rem 2rem;
 
     
-    border-radius: 30px;
+    border-radius: 2rem;
+    font-size: 1rem;
     color: white;
     background-color: #a98459;
 
@@ -97,4 +107,62 @@ h2 {
     transition: .3s;
 
     background-color: #a47641;
+}
+
+
+.StartPage__item {
+    position: absolute;
+}
+
+.StartPage__item--raduga {
+    width: 200px;
+    height: 100px;
+
+    bottom: -3.5rem;
+    right: 4rem;
+}
+
+.StartPage__item--bint {
+    width: 100px;
+    height: 100px;
+
+    top: -1.6rem;
+    left: 7rem;
+}
+
+.StartPage__item--side {
+    width: 50px;
+    height: 120px;
+    
+    top: 13rem;
+    right: 0;
+}
+
+.StartPage__item--star {
+    width: 4rem;
+    height: 4rem;
+    
+    bottom: 0rem;
+    left: 9rem;
+}
+
+.StartPage__item--flower {
+    width: 80px;
+    height: 100px;
+    
+    top: 8rem;
+    left: 30rem;
+}
+
+.StartPage__item--heart {
+    width: 4rem;
+    height: 4rem;
+    
+    bottom: 4rem;
+    left: 25rem;
+}
+
+.StartPage__item > img {
+    width: inherit;
+    height: inherit;
 }
