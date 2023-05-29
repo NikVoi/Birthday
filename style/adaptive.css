@@ -53,6 +53,8 @@
     .StartPage__right {
         position: relative;
         width: 15rem;
+
+        margin-bottom: 10rem;
     }
     
     .StartPage__right > img{
@@ -136,7 +138,7 @@
         width: 2rem;
         height: 2rem;
         
-        bottom: -4rem;
+        bottom: 2rem;
         left: 6rem;
     }
     
