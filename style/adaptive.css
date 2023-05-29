@@ -7,7 +7,6 @@
 
 
     .StartPage {padding: 20px; 
-        height: inherit;
         
         background: url("../assets/picter/items/bg/1.png"), url("../assets/picter/items/bg/2.png"), url("../assets/picter/items/bg/3.png"), url("../assets/picter/items/bg/4.png");
         background-size: 12rem 8rem, 10rem 8rem, 10rem 10rem, 10rem 10rem;
