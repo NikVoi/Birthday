@@ -1,14 +1,18 @@
 @media screen and (max-width: 1000px) {
     body {
-        background: url("../assets/picter/items/bg/1.png"), url("../assets/picter/items/bg/2.png"), url("../assets/picter/items/bg/3.png");
-        background-size: 12rem 8rem, 10rem 8rem, 10rem 10rem;
-        background-position: 0 0, 250px 0px, bottom right;
-        background-repeat: no-repeat;
+        background: none;
+        background-color: #f2e8d8;
     }
 
 
 
-    .StartPage {padding: 20px;}
+    .StartPage {padding: 20px; 
+        
+        background: url("../assets/picter/items/bg/1.png"), url("../assets/picter/items/bg/2.png"), url("../assets/picter/items/bg/3.png"), url("../assets/picter/items/bg/4.png");
+        background-size: 12rem 8rem, 10rem 8rem, 10rem 10rem, 10rem 10rem;
+        background-position: 0 0, 250px 0px, bottom right, bottom left;
+        background-repeat: no-repeat;
+        }
     
     .StartPage__logo {
         width: 0.5rem;
