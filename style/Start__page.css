@@ -1,7 +1,7 @@
 .StartPage {
     position: relative;
 
-    padding: 50px;
+    padding: 2rem;
 
     color: #735739;
     font-family: 'Suez One', serif;
@@ -41,31 +41,32 @@ a {
 .StartPage__wrapper {
     display: flex;
 
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .StartPage__left {
-    width: 40%;
+    width: 45rem;
 
-    flex: 1;
     margin-right: 20px;
 }
 
 .StartPage__right {
     position: relative;
-    width: 55%;
+    width: 22rem;
+    height: 22rem;
 
-    display: flex;
-    justify-content: center;
-
-}
-
-.StartPage__right > img{
-    padding: 10px;
-
-    width: inherit;
-    height: inherit;
 
     background-color: white;
+    padding: 10px;
+}
+
+.StartPage__right--img{
+    width: 22rem;
+    height: 22rem;
+    box-shadow: inset 0px 0px 193px 0px rgba(0, 0, 0, 0.5);
+        
+    background-image: url("../assets/picter/avavtar/avatar_4\(beta\)\ [problembo.com].jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -117,15 +118,15 @@ h2 {
     height: 100px;
 
     bottom: -3.5rem;
-    right: 4rem;
+    right: -3rem;
 }
 
 .StartPage__item--bint {
     width: 100px;
     height: 100px;
 
-    top: -1.6rem;
-    left: 7rem;
+    top: -1.8rem;
+    left: -2rem;
 }
 
 .StartPage__item--side {
@@ -140,15 +141,15 @@ h2 {
     width: 4rem;
     height: 4rem;
     
-    bottom: 0rem;
-    left: 9rem;
+    bottom: -1rem;
+    left: -1rem;
 }
 
 .StartPage__item--flower {
     width: 80px;
     height: 100px;
     
-    top: 8rem;
+    top: 5rem;
     left: 30rem;
 }
 

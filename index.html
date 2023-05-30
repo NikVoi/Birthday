@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./style/Start__page.css">
     <link rel="stylesheet" href="./style/adaptive.css">
 
+
+    <link rel="stylesheet" href="style/animate.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
@@ -23,7 +26,7 @@
 <body>
     <div class="StartPage">
         <div class="StartPage__logo">
-            <a href="#">
+            <a href="#" class="wow fadeInDown">
                 <img src="./assets/picter/cake_wnxnz1jf03k4.svg" alt="cake" class="StartPage__logoPic">
                 
                 <span>
@@ -34,18 +37,20 @@
 
         <div class="StartPage__wrapper">
             <div class="StartPage__left">
-                <h1>Happy Birthday</h1>
-                <h2>personal SMM Disign developer</h2>
+                <h1 class="wow fadeInDown">Happy Birthday</h1>
+                <h2 class="wow fadeInLeft">Елена - успешный SMM специалист поможет преобразить твой Instagram до неузнаваемости💸
+                    Станет твоим помощником 24/7
+                    •Начала зарабатывать с 16 лет!</h2>
                 <div class="StartPage__description">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quae dolor necessitatibus consectetur. Maxime et neque ratione modi nemo earum magni, maiores nobis nesciunt, expedita cumque aperiam odio dolorem perferendis.
+                    
                 </div>
 
                 <a href="#">
-                    <div class="button__start">Read more</div>
+                    <div class="button__start wow fadeInUp">Read more</div>
                 </a>
 
             </div>
-            <div class="StartPage__right">
+            <div class="StartPage__right wow fadeInRight">
                 <div class="StartPage__right--img">
                 </div>
 
@@ -77,5 +82,12 @@
         </div>
         
     </div>
+
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
 </body>
 </html>

@@ -4,9 +4,7 @@
         background-color: #f2e8d8;
     }
 
-
-
-    .StartPage {padding: 20px; 
+    .StartPage {padding: 1rem; 
         
         background: url("../assets/picter/items/bg/1.png"), url("../assets/picter/items/bg/2.png"), url("../assets/picter/items/bg/3.png"), url("../assets/picter/items/bg/4.png");
         background-size: 12rem 8rem, 10rem 8rem, 10rem 10rem, 10rem 10rem;
@@ -30,18 +28,16 @@
     .StartPage__logo > a {font-size: 1rem;}
 
     .StartPage__wrapper {
-        margin-top: 3rem;
-
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     
     .StartPage__left {
-        width: 70%;
+        width: 20rem;
         flex: 1;
         margin-right: 0rem;
-        margin-top: 4rem;
+        margin-top: 1rem;
         text-align: center;
         
     }
@@ -56,27 +52,23 @@
         width: 20rem;
         height: 20rem;
 
-        margin-bottom: 10rem;
+        margin-bottom: 7rem;
         background-color: white;
         padding: 10px;
     }
     
     .StartPage__right--img {
         width: 20rem;
+        height: 20rem;
         
         box-shadow: inset 0px 0px 193px 0px rgba(0, 0, 0, 0.5);
-        
-        background-image: url("../assets/picter/avavtar/avatar_4\(beta\)\ [problembo.com].jpg");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-
     }
     
     h1 {
         font-size: 2rem;
         text-transform: uppercase;
 
-        margin-top: 1rem;
+        margin-top: .5rem;
         margin-bottom: 1rem;
     }           
     
