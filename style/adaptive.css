@@ -36,15 +36,16 @@
         justify-content: center;
         align-items: center;
     }
-
+    
     .StartPage__left {
-        width: 60%;
+        width: 70%;
         flex: 1;
         margin-right: 0rem;
         margin-top: 4rem;
-
+        text-align: center;
+        
     }
-
+    
     .StartPage__left > a {
         display: flex;
         justify-content: center;
@@ -52,62 +53,69 @@
     
     .StartPage__right {
         position: relative;
-        width: 15rem;
+        width: 20rem;
+        height: 20rem;
 
         margin-bottom: 10rem;
+        background-color: white;
+        padding: 10px;
     }
     
-    .StartPage__right > img{
-        padding: 10px;
-    
-        width: inherit;
-        height: inherit;
-    
-        background-color: white;
+    .StartPage__right--img {
+        width: 20rem;
+        
+        box-shadow: inset 0px 0px 193px 0px rgba(0, 0, 0, 0.5);
+        
+        background-image: url("../assets/picter/avavtar/avatar_4\(beta\)\ [problembo.com].jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
     }
     
     h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+
         margin-top: 1rem;
         margin-bottom: 1rem;
     }           
     
     h2 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         margin-bottom: 1rem;
     }
     
     .StartPage__description {
-        font-size: .6rem;
+        font-size: 1rem;
     
         margin-bottom: 1.5rem;
-        
     }
     
+      
     .button__start {
         display: inline-block;
-        padding: .5rem 1rem;
+        padding: 1rem 1.5rem;
         
         border-radius: 1rem;
-        font-size: .6rem;
+        font-size: 1rem;
 
         margin-bottom: 1rem;
     }
     
     .StartPage__item--raduga {
-        width: 4.5rem;
-        height: 3rem;
+        width: 7rem;
+        height: 4rem;
     
-        bottom: -1.8rem;
-        right: -1rem;
+        bottom: -2.2rem;
+        right: -2rem;
     }
     
     .StartPage__item--bint {
-        width: 3rem;
-        height: 3rem;
+        width: 4rem;
+        height: 4rem;
     
-        top: -.6rem;
-        left: -1.2rem;
+        top: -1rem;
+        left: -1rem;
     }
     
     .StartPage__item--side {
@@ -119,11 +127,11 @@
     }
     
     .StartPage__item--star {
-        width: 2.3rem;
-        height: 2.3rem;
+        width: 3rem;
+        height: 3rem;
         
-        bottom: 0rem;
-        left: -.6rem;
+        bottom: -.5rem;
+        left: -.5rem;
     }
     
     .StartPage__item--flower {
