@@ -5,12 +5,7 @@ body {
     overflow-x: hidden; 
 }
 
-
-.second {
-    font-family: 'Suez One', serif;
-    padding: 2rem;
-
-
+.second__bg {
     background-color: #f4ebd7;
 
     background-image: url('../assets/picter/secon-page/1.png'), url('../assets/picter/secon-page/2.png'),
@@ -20,8 +15,15 @@ body {
     background-repeat: no-repeat;
     background-size: 10rem 14rem, 25rem 10rem, 15rem 15rem, 18rem 12rem, 6rem 12rem;
     background-attachment: fixed;
+}
 
-    overflow-x: hidden;
+
+.second {
+    font-family: 'Suez One', serif;
+    padding: 2rem;
+
+
+    
 }
 
 .second > .StartPage__logo > .wow > span {
@@ -36,6 +38,10 @@ body {
     justify-content: space-evenly;
 
     margin-bottom: 15rem;
+}
+
+.second__wrapper:nth-child(3) {
+    flex-direction: row-reverse;
 }
 
 .second__wrapper:last-child {
