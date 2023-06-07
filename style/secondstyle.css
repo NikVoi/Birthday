@@ -3,6 +3,25 @@ body {
     height: 100%;
 
 
+    /* background-color: #f4ebd7;
+
+    background-image: url('../assets/picter/secon-page/1.png'), url('../assets/picter/secon-page/2.png'),
+    url('../assets/picter/secon-page/3.png'), url('../assets/picter/secon-page/5.png'),
+    url('../assets/picter/secon-page/4.png');
+    background-position: left top, right top, left bottom +5rem, right bottom +2rem, right bottom +16rem;
+    background-repeat: no-repeat;
+    background-size: 10rem 14rem, 25rem 10rem, 15rem 15rem, 18rem 12rem, 6rem 12rem;
+    background-attachment: fixed;
+*/
+    overflow-x: hidden; 
+}
+
+
+.second {
+    font-family: 'Suez One', serif;
+    padding: 2rem;
+
+
     background-color: #f4ebd7;
 
     background-image: url('../assets/picter/secon-page/1.png'), url('../assets/picter/secon-page/2.png'),
@@ -14,12 +33,6 @@ body {
     background-attachment: fixed;
 
     overflow-x: hidden;
-}
-
-
-.second {
-    font-family: 'Suez One', serif;
-    padding: 2rem;
 }
 
 .second > .StartPage__logo > .wow > span {
