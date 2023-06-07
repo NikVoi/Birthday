@@ -193,20 +193,20 @@
     
     .seecond__left {
         color: #7c6148;
-        width: 60%;
+        width: 80%;
     }
     
     .second__title {
         font-family: 'Suez One', serif;
     
-        font-size: 4rem;
+        font-size: 3rem;
         margin-bottom: 1rem;
     }
     
     .second__subTitle {
         font-family: 'Oswald', sans-serif;
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 1.5rem;
     
         color: #cba882;
         margin-bottom: 1rem;
@@ -214,9 +214,9 @@
     
     .second__text {
         font-weight: bold;
-        font-size: 1.5rem;
+        font-size: 1rem;
         letter-spacing: .1rem;
-        line-height: 1.5rem;
+        line-height: 1.2rem;
     
         color: #cba882;
     }
@@ -226,11 +226,11 @@
     }
     
     .second__item--bint {
-        width: 20rem;
-        height: 6rem;
+        width: 15rem;
+        height: 4rem;
     
-        top: -3rem;
-        left: 5rem;
+        top: -2rem;
+        left: 4rem;
     }
     
     .second__item--side {
@@ -242,8 +242,8 @@
     }
     
     .second__item--raduga {
-        width: 10rem;
-        height: 6rem;
+        width: 8rem;
+        height: 5rem;
     
         bottom: -2rem;
         left: -2rem;
@@ -268,7 +268,7 @@
     
     
     .second__img > img{
-        width: 25rem;
-        height: 25rem;
+        width: 20rem;
+        height: 20rem;
     }
 }
