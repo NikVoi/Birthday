@@ -148,3 +148,127 @@
     }
 
 }
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-image: url('../assets/picter/secon-page/1.png'), url('../assets/picter/secon-page/2.png'),
+        url('../assets/picter/secon-page/3.png'), url('../assets/picter/secon-page/5.png'),
+        url('../assets/picter/secon-page/4.png');
+        background-position: left top, right top, left bottom +3rem, right bottom +2rem, right bottom +10rem;
+        background-repeat: no-repeat;
+        background-size: 5rem 9rem, 10rem 5rem, 7rem 7rem, 9rem 6rem, 3rem 6rem;
+        background-attachment: fixed;
+    
+        overflow-x: hidden;
+    }
+    
+    
+    .second {
+        padding: 2rem;
+    }
+    
+    .second__wrapper {
+        font-family: 'Oswald', sans-serif;
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+        margin-bottom: 10rem;
+    }
+
+    .seecond__left:first-child {
+        margin-top: 1rem;
+    }
+    
+    .seecond__left {
+        margin-bottom: 5rem;
+    }
+
+    .second__wrapper:last-child {
+        margin-bottom: 5rem;
+    }
+    
+    .seecond__left {
+        color: #7c6148;
+        width: 60%;
+    }
+    
+    .second__title {
+        font-family: 'Suez One', serif;
+    
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+    
+    .second__subTitle {
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 2rem;
+    
+        color: #cba882;
+        margin-bottom: 1rem;
+    }
+    
+    .second__text {
+        font-weight: bold;
+        font-size: 1.5rem;
+        letter-spacing: .1rem;
+        line-height: 1.5rem;
+    
+        color: #cba882;
+    }
+    
+    .second__right {
+        position: relative;
+    }
+    
+    .second__item--bint {
+        width: 20rem;
+        height: 6rem;
+    
+        top: -3rem;
+        left: 5rem;
+    }
+    
+    .second__item--side {
+        width: 2rem;
+        height: 5rem;
+    
+        top: 6rem;
+        right: -1rem;
+    }
+    
+    .second__item--raduga {
+        width: 10rem;
+        height: 6rem;
+    
+        bottom: -2rem;
+        left: -2rem;
+    }
+    
+    .second__img {
+        background-color: white;
+    
+        padding: .5rem;
+    
+        transform: rotate(4deg);
+    }
+    
+    .second__item {
+        position: absolute;
+    }
+    
+    .second__item > img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    .second__img > img{
+        width: 25rem;
+        height: 25rem;
+    }
+}
